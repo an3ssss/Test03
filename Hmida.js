@@ -360,7 +360,7 @@ function updatOrderSummary() {
     console.log(tax);
     let orderTotal = totalBeforeTax + tax;
     console.log(orderTotal);
-    document.querySelector('.js-items').innerHTML = `Items (${items})`;
+    document.querySelector('.js-items').innerHTML = `Items (${items}):`;
     document.querySelector('.js-price').innerHTML = `${itemsPrice} DA`;
     document.querySelector('.js-shipping-and-handling').innerHTML = `${shippingAndHandling} DA`;
     document.querySelector('.js-price-before-tax').innerHTML = `${totalBeforeTax} DA`;
